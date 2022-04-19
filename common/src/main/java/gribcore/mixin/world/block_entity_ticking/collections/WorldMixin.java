@@ -1,7 +1,7 @@
 package gribcore.mixin.world.block_entity_ticking.collections;
 
-import me.jellysquid.mods.lithium.common.util.collections.BlockEntityList;
-import me.jellysquid.mods.lithium.common.util.collections.HashedReferenceList;
+import gribland.gribcore.lithium.common.util.collections.BlockEntityList;
+import gribland.gribcore.lithium.common.util.collections.HashedReferenceList;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.Tickable;

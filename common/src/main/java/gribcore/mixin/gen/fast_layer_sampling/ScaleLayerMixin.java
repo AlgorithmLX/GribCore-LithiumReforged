@@ -1,6 +1,6 @@
 package gribcore.mixin.gen.fast_layer_sampling;
 
-import me.jellysquid.mods.lithium.common.world.layer.CachingLayerContextExtended;
+import gribland.gribcore.lithium.common.world.layer.CachingLayerContextExtended;
 import net.minecraft.world.biome.layer.ScaleLayer;
 import net.minecraft.world.biome.layer.util.LayerSampleContext;
 import net.minecraft.world.biome.layer.util.LayerSampler;

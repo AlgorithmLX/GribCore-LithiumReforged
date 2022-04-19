@@ -1,6 +1,6 @@
 package gribcore.mixin.world.chunk_task_system;
 
-import me.jellysquid.mods.lithium.common.util.thread.ArrayPrioritizedTaskQueue;
+import gribland.gribcore.lithium.common.util.thread.ArrayPrioritizedTaskQueue;
 import net.minecraft.server.world.ChunkTaskPrioritySystem;
 import net.minecraft.util.thread.MessageListener;
 import net.minecraft.util.thread.TaskExecutor;

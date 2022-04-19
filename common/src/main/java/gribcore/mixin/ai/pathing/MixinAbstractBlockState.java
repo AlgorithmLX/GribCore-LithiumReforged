@@ -1,7 +1,7 @@
 package gribcore.mixin.ai.pathing;
 
 import me.jellysquid.mods.lithium.api.pathing.BlockPathingBehavior;
-import me.jellysquid.mods.lithium.common.ai.pathing.BlockStatePathingCache;
+import gribland.gribcore.lithium.common.ai.pathing.BlockStatePathingCache;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

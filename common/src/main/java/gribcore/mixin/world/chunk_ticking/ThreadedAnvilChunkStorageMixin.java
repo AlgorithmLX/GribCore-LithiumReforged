@@ -1,6 +1,6 @@
 package gribcore.mixin.world.chunk_ticking;
 
-import me.jellysquid.mods.lithium.common.world.PlayerChunkWatchingManagerIterable;
+import gribland.gribcore.lithium.common.world.PlayerChunkWatchingManagerIterable;
 import net.minecraft.entity.Entity;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.PlayerChunkWatchingManager;

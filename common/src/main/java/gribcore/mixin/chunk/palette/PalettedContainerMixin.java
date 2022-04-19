@@ -1,6 +1,6 @@
 package gribcore.mixin.chunk.palette;
 
-import me.jellysquid.mods.lithium.common.world.chunk.LithiumHashPalette;
+import gribland.gribcore.lithium.common.world.chunk.LithiumHashPalette;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.util.collection.IdList;
 import net.minecraft.util.collection.PackedIntegerArray;

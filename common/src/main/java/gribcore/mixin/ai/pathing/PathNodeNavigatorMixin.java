@@ -1,6 +1,6 @@
 package gribcore.mixin.ai.pathing;
 
-import me.jellysquid.mods.lithium.common.ai.pathing.PathNodeCache;
+import gribland.gribcore.lithium.common.ai.pathing.PathNodeCache;
 import net.minecraft.entity.ai.pathing.Path;
 import net.minecraft.entity.ai.pathing.PathNode;
 import net.minecraft.entity.ai.pathing.PathNodeNavigator;

@@ -1,6 +1,6 @@
 package gribcore.mixin.shapes.optimized_matching;
 
-import me.jellysquid.mods.lithium.common.shapes.VoxelShapeMatchesAnywhere;
+import gribland.gribcore.lithium.common.shapes.VoxelShapeMatchesAnywhere;
 import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.util.shape.VoxelShapes;

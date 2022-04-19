@@ -1,7 +1,7 @@
 package gribcore.mixin.gen.biome_noise_cache;
 
-import me.jellysquid.mods.lithium.common.world.layer.CachedLocalLayerFactory;
-import me.jellysquid.mods.lithium.common.world.layer.CloneableContext;
+import gribland.gribcore.lithium.common.world.layer.CachedLocalLayerFactory;
+import gribland.gribcore.lithium.common.world.layer.CloneableContext;
 import net.minecraft.world.biome.layer.type.InitLayer;
 import net.minecraft.world.biome.layer.util.LayerFactory;
 import net.minecraft.world.biome.layer.util.LayerSampleContext;

@@ -1,6 +1,6 @@
 package gribcore.mixin.math.sine_lut;
 
-import me.jellysquid.mods.lithium.common.util.math.CompactSineLUT;
+import gribland.gribcore.lithium.common.util.math.CompactSineLUT;
 import net.minecraft.util.math.MathHelper;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;

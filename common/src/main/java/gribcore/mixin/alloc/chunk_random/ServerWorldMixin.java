@@ -1,6 +1,6 @@
 package gribcore.mixin.alloc.chunk_random;
 
-import me.jellysquid.mods.lithium.common.world.ChunkRandomSource;
+import gribland.gribcore.lithium.common.world.ChunkRandomSource;
 import net.minecraft.block.BlockState;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.server.world.ServerWorld;

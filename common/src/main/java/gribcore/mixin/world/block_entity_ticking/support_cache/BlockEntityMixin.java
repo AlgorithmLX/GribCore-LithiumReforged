@@ -1,6 +1,6 @@
 package gribcore.mixin.world.block_entity_ticking.support_cache;
 
-import me.jellysquid.mods.lithium.common.world.blockentity.SupportCache;
+import gribland.gribcore.lithium.common.world.blockentity.SupportCache;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;

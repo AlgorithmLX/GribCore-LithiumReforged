@@ -1,6 +1,6 @@
 package gribcore.mixin.ai.pathing;
 
-import me.jellysquid.mods.lithium.common.ai.pathing.PathNodeCache;
+import gribland.gribcore.lithium.common.ai.pathing.PathNodeCache;
 import me.jellysquid.mods.lithium.common.world.WorldHelper;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ai.pathing.LandPathNodeMaker;

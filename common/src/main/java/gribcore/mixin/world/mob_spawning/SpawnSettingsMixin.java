@@ -1,7 +1,7 @@
 package gribcore.mixin.world.mob_spawning;
 
 import com.google.common.collect.Maps;
-import me.jellysquid.mods.lithium.common.util.collections.HashedReferenceList;
+import gribland.gribcore.lithium.common.util.collections.HashedReferenceList;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.world.biome.SpawnSettings;

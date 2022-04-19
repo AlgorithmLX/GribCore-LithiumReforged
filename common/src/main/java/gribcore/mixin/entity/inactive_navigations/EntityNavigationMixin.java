@@ -1,7 +1,7 @@
 package gribcore.mixin.entity.inactive_navigations;
 
-import me.jellysquid.mods.lithium.common.entity.EntityNavigationExtended;
-import me.jellysquid.mods.lithium.common.world.ServerWorldExtended;
+import gribland.gribcore.lithium.common.entity.EntityNavigationExtended;
+import gribland.gribcore.lithium.common.world.ServerWorldExtended;
 import net.minecraft.entity.ai.pathing.EntityNavigation;
 import net.minecraft.entity.ai.pathing.Path;
 import net.minecraft.world.World;

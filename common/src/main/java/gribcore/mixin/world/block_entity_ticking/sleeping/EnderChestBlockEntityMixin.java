@@ -1,6 +1,6 @@
 package gribcore.mixin.world.block_entity_ticking.sleeping;
 
-import me.jellysquid.mods.lithium.common.world.blockentity.BlockEntitySleepTracker;
+import gribland.gribcore.lithium.common.world.blockentity.BlockEntitySleepTracker;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.block.entity.EnderChestBlockEntity;

@@ -1,7 +1,7 @@
 package gribcore.mixin.world.chunk_access;
 
 import com.mojang.datafixers.util.Either;
-import me.jellysquid.mods.lithium.common.world.chunk.ChunkHolderExtended;
+import gribland.gribcore.lithium.common.world.chunk.ChunkHolderExtended;
 import net.minecraft.server.world.ChunkHolder;
 import net.minecraft.world.chunk.Chunk;
 import org.spongepowered.asm.mixin.Final;

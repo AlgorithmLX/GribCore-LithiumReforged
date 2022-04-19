@@ -1,6 +1,6 @@
 package gribcore.mixin.world.tick_scheduler;
 
-import me.jellysquid.mods.lithium.common.world.scheduler.LithiumServerTickScheduler;
+import gribland.gribcore.lithium.common.world.scheduler.LithiumServerTickScheduler;
 import net.minecraft.server.world.ServerTickScheduler;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.Identifier;

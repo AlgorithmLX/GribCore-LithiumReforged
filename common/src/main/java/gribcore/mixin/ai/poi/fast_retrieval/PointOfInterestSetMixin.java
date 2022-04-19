@@ -1,7 +1,7 @@
 package gribcore.mixin.ai.poi.fast_retrieval;
 
-import me.jellysquid.mods.lithium.common.util.Collector;
-import me.jellysquid.mods.lithium.common.world.interests.PointOfInterestSetFilterable;
+import gribland.gribcore.lithium.common.util.Collector;
+import gribland.gribcore.lithium.common.world.interests.PointOfInterestSetFilterable;
 import net.minecraft.world.poi.PointOfInterest;
 import net.minecraft.world.poi.PointOfInterestSet;
 import net.minecraft.world.poi.PointOfInterestStorage;

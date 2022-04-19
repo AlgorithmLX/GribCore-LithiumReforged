@@ -1,6 +1,6 @@
 package gribcore.mixin.alloc.composter;
 
-import me.jellysquid.mods.lithium.common.util.ArrayConstants;
+import gribland.gribcore.lithium.common.util.ArrayConstants;
 import net.minecraft.inventory.SidedInventory;
 import net.minecraft.util.math.Direction;
 import org.spongepowered.asm.mixin.Mixin;

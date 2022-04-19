@@ -1,6 +1,6 @@
 package gribcore.mixin.shapes.blockstate_cache;
 
-import me.jellysquid.mods.lithium.common.util.collections.Object2BooleanCacheTable;
+import gribland.gribcore.lithium.common.util.collections.Object2BooleanCacheTable;
 import net.minecraft.block.Block;
 import net.minecraft.util.function.BooleanBiFunction;
 import net.minecraft.util.shape.VoxelShape;

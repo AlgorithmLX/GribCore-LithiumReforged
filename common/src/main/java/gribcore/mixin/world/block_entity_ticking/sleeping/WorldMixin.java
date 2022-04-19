@@ -1,8 +1,8 @@
 package gribcore.mixin.world.block_entity_ticking.sleeping;
 
-import me.jellysquid.mods.lithium.common.util.collections.MaskedTickingBlockEntityList;
-import me.jellysquid.mods.lithium.common.world.blockentity.BlockEntitySleepTracker;
-import me.jellysquid.mods.lithium.common.world.blockentity.SleepingBlockEntity;
+import gribland.gribcore.lithium.common.util.collections.MaskedTickingBlockEntityList;
+import gribland.gribcore.lithium.common.world.blockentity.BlockEntitySleepTracker;
+import gribland.gribcore.lithium.common.world.blockentity.SleepingBlockEntity;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.profiler.Profiler;
 import net.minecraft.util.registry.RegistryKey;

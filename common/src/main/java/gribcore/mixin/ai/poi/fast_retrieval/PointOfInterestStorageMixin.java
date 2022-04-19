@@ -2,9 +2,9 @@ package gribcore.mixin.ai.poi.fast_retrieval;
 
 import com.mojang.datafixers.DataFixer;
 import com.mojang.serialization.Codec;
-import me.jellysquid.mods.lithium.common.util.Collector;
-import me.jellysquid.mods.lithium.common.world.interests.PointOfInterestCollectors;
-import me.jellysquid.mods.lithium.common.world.interests.RegionBasedStorageSectionAccess;
+import gribland.gribcore.lithium.common.util.Collector;
+import gribland.gribcore.lithium.common.world.interests.PointOfInterestCollectors;
+import gribland.gribcore.lithium.common.world.interests.RegionBasedStorageSectionAccess;
 import net.minecraft.datafixer.DataFixTypes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;

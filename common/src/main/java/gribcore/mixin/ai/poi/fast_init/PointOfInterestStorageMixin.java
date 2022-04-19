@@ -2,7 +2,7 @@ package gribcore.mixin.ai.poi.fast_init;
 
 import com.mojang.datafixers.DataFixer;
 import com.mojang.serialization.Codec;
-import me.jellysquid.mods.lithium.common.world.interests.PointOfInterestTypeHelper;
+import gribland.gribcore.lithium.common.world.interests.PointOfInterestTypeHelper;
 import net.minecraft.datafixer.DataFixTypes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;

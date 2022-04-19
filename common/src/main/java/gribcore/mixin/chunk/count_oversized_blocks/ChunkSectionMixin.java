@@ -1,6 +1,6 @@
 package gribcore.mixin.chunk.count_oversized_blocks;
 
-import me.jellysquid.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper;
+import gribland.gribcore.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;

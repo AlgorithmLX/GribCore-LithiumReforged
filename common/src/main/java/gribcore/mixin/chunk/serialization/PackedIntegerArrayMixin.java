@@ -1,6 +1,6 @@
 package gribcore.mixin.chunk.serialization;
 
-import me.jellysquid.mods.lithium.common.world.chunk.CompactingPackedIntegerArray;
+import gribland.gribcore.lithium.common.world.chunk.CompactingPackedIntegerArray;
 import net.minecraft.util.collection.PackedIntegerArray;
 import net.minecraft.world.chunk.Palette;
 import org.spongepowered.asm.mixin.Final;

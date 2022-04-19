@@ -1,8 +1,8 @@
 package gribcore.mixin.gen.biome_noise_cache;
 
 import it.unimi.dsi.fastutil.longs.Long2IntLinkedOpenHashMap;
-import me.jellysquid.mods.lithium.common.world.layer.CloneableContext;
-import me.jellysquid.mods.lithium.common.world.layer.FastCachingLayerSampler;
+import gribland.gribcore.lithium.common.world.layer.CloneableContext;
+import gribland.gribcore.lithium.common.world.layer.FastCachingLayerSampler;
 import net.minecraft.util.math.noise.PerlinNoiseSampler;
 import net.minecraft.world.biome.layer.util.CachingLayerContext;
 import net.minecraft.world.biome.layer.util.CachingLayerSampler;

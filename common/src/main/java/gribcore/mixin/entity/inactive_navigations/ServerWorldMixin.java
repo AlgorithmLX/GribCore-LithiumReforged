@@ -1,8 +1,8 @@
 package gribcore.mixin.entity.inactive_navigations;
 
 import it.unimi.dsi.fastutil.objects.ReferenceOpenHashSet;
-import me.jellysquid.mods.lithium.common.entity.EntityNavigationExtended;
-import me.jellysquid.mods.lithium.common.world.ServerWorldExtended;
+import gribland.gribcore.lithium.common.entity.EntityNavigationExtended;
+import gribland.gribcore.lithium.common.world.ServerWorldExtended;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ai.pathing.EntityNavigation;
 import net.minecraft.entity.mob.MobEntity;

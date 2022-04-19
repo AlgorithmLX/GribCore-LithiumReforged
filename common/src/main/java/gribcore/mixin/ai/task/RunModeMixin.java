@@ -1,6 +1,6 @@
 package gribcore.mixin.ai.task;
 
-import me.jellysquid.mods.lithium.common.ai.WeightedListIterable;
+import gribland.gribcore.lithium.common.ai.WeightedListIterable;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.brain.task.Task;
 import net.minecraft.util.WeightedList;

@@ -1,7 +1,7 @@
 package gribcore.mixin.chunk.serialization;
 
-import me.jellysquid.mods.lithium.common.world.chunk.CompactingPackedIntegerArray;
-import me.jellysquid.mods.lithium.common.world.chunk.LithiumHashPalette;
+import gribland.gribcore.lithium.common.world.chunk.CompactingPackedIntegerArray;
+import gribland.gribcore.lithium.common.world.chunk.LithiumHashPalette;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.util.collection.IdList;

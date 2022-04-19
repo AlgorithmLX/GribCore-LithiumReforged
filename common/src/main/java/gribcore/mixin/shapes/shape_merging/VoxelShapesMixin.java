@@ -1,7 +1,7 @@
 package gribcore.mixin.shapes.shape_merging;
 
 import it.unimi.dsi.fastutil.doubles.DoubleList;
-import me.jellysquid.mods.lithium.common.shapes.pairs.LithiumDoublePairList;
+import gribland.gribcore.lithium.common.shapes.pairs.LithiumDoublePairList;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

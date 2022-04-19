@@ -1,6 +1,6 @@
 package gribcore.mixin.ai.task;
 
-import me.jellysquid.mods.lithium.common.ai.WeightedListIterable;
+import gribland.gribcore.lithium.common.ai.WeightedListIterable;
 import net.minecraft.util.collection.WeightedList;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,7 +1,7 @@
 package gribcore.mixin.ai.pathing;
 
 import me.jellysquid.mods.lithium.api.pathing.BlockPathingBehavior;
-import me.jellysquid.mods.lithium.common.ai.pathing.PathNodeDefaults;
+import gribland.gribcore.lithium.common.ai.pathing.PathNodeDefaults;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.ai.pathing.PathNodeType;

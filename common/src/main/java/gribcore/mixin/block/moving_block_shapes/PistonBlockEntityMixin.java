@@ -1,6 +1,6 @@
 package gribcore.mixin.block.moving_block_shapes;
 
-import me.jellysquid.mods.lithium.common.shapes.OffsetVoxelShapeCache;
+import gribland.gribcore.lithium.common.shapes.OffsetVoxelShapeCache;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PistonBlock;

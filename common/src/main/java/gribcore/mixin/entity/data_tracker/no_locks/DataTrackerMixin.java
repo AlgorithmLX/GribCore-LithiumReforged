@@ -1,6 +1,6 @@
 package gribcore.mixin.entity.data_tracker.no_locks;
 
-import me.jellysquid.mods.lithium.common.util.lock.NullReadWriteLock;
+import gribland.gribcore.lithium.common.util.lock.NullReadWriteLock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.data.DataTracker;
 import org.spongepowered.asm.mixin.Final;

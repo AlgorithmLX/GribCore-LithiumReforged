@@ -1,8 +1,8 @@
 package gribcore.mixin.shapes.specialized_shapes;
 
-import me.jellysquid.mods.lithium.common.shapes.VoxelShapeAlignedCuboid;
-import me.jellysquid.mods.lithium.common.shapes.VoxelShapeEmpty;
-import me.jellysquid.mods.lithium.common.shapes.VoxelShapeSimpleCube;
+import gribland.gribcore.lithium.common.shapes.VoxelShapeAlignedCuboid;
+import gribland.gribcore.lithium.common.shapes.VoxelShapeEmpty;
+import gribland.gribcore.lithium.common.shapes.VoxelShapeSimpleCube;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.shape.BitSetVoxelSet;
 import net.minecraft.util.shape.VoxelSet;

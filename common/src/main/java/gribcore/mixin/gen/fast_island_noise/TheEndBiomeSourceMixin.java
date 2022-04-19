@@ -1,6 +1,6 @@
 package gribcore.mixin.gen.fast_island_noise;
 
-import me.jellysquid.mods.lithium.common.world.noise.SimplexNoiseCache;
+import gribland.gribcore.lithium.common.world.noise.SimplexNoiseCache;
 import net.minecraft.util.math.noise.SimplexNoiseSampler;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.biome.Biome;

@@ -1,7 +1,7 @@
 package gribcore.mixin.entity.collisions;
 
 import me.jellysquid.mods.lithium.common.entity.LithiumEntityCollisions;
-import me.jellysquid.mods.lithium.common.entity.movement.BlockCollisionPredicate;
+import gribland.gribcore.lithium.common.entity.movement.BlockCollisionPredicate;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.shape.VoxelShape;
