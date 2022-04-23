@@ -7,6 +7,12 @@ architectury {
     forge()
 
 }
+loom {
+    forge {
+        mixinConfig "GribCore.mixins.json"
+        accessWidenerPath = file("src/main/resources/at.accesswidener")
+    }
+}
 
 configurations {
     common
@@ -31,10 +37,6 @@ dependencies {
 
 processResources {
     inputs.property "version", project.version
-
-    filesMatching("META-INF/mods.toml") {
-        expand "version": project.version
-    }
 }
 
 shadowJar {

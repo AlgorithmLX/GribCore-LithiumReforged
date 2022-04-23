@@ -7,12 +7,6 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.shapes.DiscreteVoxelShape;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-/**
- * An efficient implementation of {@link VoxelShape} for a shape with no vertices. Vanilla normally represents this
- * case with an empty {@link net.minecraft.util.shape.SimpleVoxelShape}, but since there is no data the return values
- * here will always be constant. This allows a lot of unnecessary code to be eliminated that would otherwise try to
- * iterate over sets of empty voxels/vertices.
- */
 public class VoxelShapeEmpty extends VoxelShape implements VoxelShapeCaster {
     private static final DoubleList EMPTY_LIST = DoubleArrayList.wrap(new double[]{0.0D});
 
@@ -21,28 +15,23 @@ public class VoxelShapeEmpty extends VoxelShape implements VoxelShapeCaster {
     }
 
     @Override
-    public DoubleList getPointPositions(Direction.Axis axis) {
+    public DoubleList getCoords(Direction.Axis axis) {
         return EMPTY_LIST;
     }
 
     @Override
-    protected boolean contains(double x, double y, double z) {
+    protected boolean isFullWide(double x, double y, double z) {
         return false;
     }
 
     @Override
-    public double getMin(Direction.Axis axis) {
+    public double min(Direction.Axis axis) {
         return Double.POSITIVE_INFINITY;
     }
 
     @Override
-    public double getMax(Direction.Axis axis) {
+    public double max(Direction.Axis axis) {
         return Double.NEGATIVE_INFINITY;
-    }
-
-    @Override
-    protected DoubleList getCoords(Direction.Axis axis) {
-        return null;
     }
 
     @Override

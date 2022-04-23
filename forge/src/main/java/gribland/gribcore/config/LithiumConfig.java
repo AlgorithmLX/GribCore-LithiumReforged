@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-import static gribcore.Constantum.LOGGER;
+import static gribland.gribcore.Constantum.LOGGER;
 
 @SuppressWarnings("CanBeFinal")
 public class LithiumConfig {

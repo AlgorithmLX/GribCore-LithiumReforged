@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "gribcore",
+  "version": "${version}",
+  "name": "GribCore",
+  "description": "This is Description.",
+  "authors": [
+    "AlgorithmLX"
+  ],
+  "contact": {
+
+  },
+  "license": "null",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "gribland.gribcore.GribCoreFabric"
+    ]
+  },
+  "mixins": [
+    "GribCore.mixins.json"
+  ],
+  "accessWidener": "accesstransformer.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.16.5"
+  },
+  "breaks": {
+    "optifabric": "*"
+  }
+}
