@@ -4,3 +4,5 @@ run
 build
 hs_err_pid*
 .vscode
+.architectury-transformer
+patchesToMixins
