@@ -1,8 +1,8 @@
 package gribland.gribcore.entity;
 
 import gribland.gribcore.lithium.common.util.Producer;
-import gribland.gribcore.mixin.lithium.collections.entity_filtering.movement.BlockCollisionPredicate;
-import gribland.gribcore.mixin.lithium.collections.entity_filtering.movement.ChunkAwareBlockCollisionSweeper;
+import gribland.gribcore.mixed.BlockCollisionPredicate;
+import gribland.gribcore.mixed.ChunkAwareBlockCollisionSweeper;
 import gribland.gribcore.world.WorldHelper;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.CollisionGetter;

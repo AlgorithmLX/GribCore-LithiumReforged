@@ -1,6 +1,7 @@
 package gribland.gribcore.mixin.lithium.ai.task;
 
 import gribland.gribcore.lithium.common.ai.WeightedListIterable;
+import me.shedaniel.architectury.event.events.TickEvent;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.Brain;

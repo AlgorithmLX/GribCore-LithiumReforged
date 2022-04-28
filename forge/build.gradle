@@ -23,10 +23,10 @@ loom {
 //        mixinConfig "GribCore.mixins.json"
         convertAccessWideners = true
         extraAccessWideners.add("accesstransformer.accesswidener")
-//        mixinConfigs = [
-//                "GribCore.mixins.json",
-//                "GribCore_common.mixins.json"
-//        ]
+        mixinConfigs = [
+                "GribCore.mixins.json",
+                "GribCore_common.mixins.json"
+        ]
     }
 }
 

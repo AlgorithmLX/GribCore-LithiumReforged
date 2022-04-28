@@ -29,8 +29,7 @@ import java.util.function.Supplier;
 public abstract class WorldMixin implements LevelAccessor {
     @Mutable
     @Shadow
-    @Final
-    protected List<BlockEntity> blockEntitiesToUnload;
+    protected List<BlockEntity> updatingBlockEntities;
     @Shadow
     @Final
     public boolean isClientSide;
@@ -63,7 +62,7 @@ public abstract class WorldMixin implements LevelAccessor {
         this.blockEntities$lithium = new BlockEntityList(this.blockEntityList, false);
         this.blockEntityList = this.blockEntities$lithium;
 
-        this.blockEntitiesToUnload = new HashedReferenceList<>(this.blockEntitiesToUnload);
+        this.updatingBlockEntities = new HashedReferenceList<>(this.updatingBlockEntities);
 
         this.pendingBlockEntities$lithium = new BlockEntityList(this.pendingBlockEntities, true);
         this.pendingBlockEntities = this.pendingBlockEntities$lithium;
@@ -85,7 +84,7 @@ public abstract class WorldMixin implements LevelAccessor {
             method = "tickBlockEntities",
             at = @At(
                     value = "FIELD",
-                    target = "Lnet/minecraft/world/level/Level;blockEntitiesToUnload:Ljava/util/List;",
+                    target = "Lnet/minecraft/world/level/Level;updatingBlockEntities:Z",
                     ordinal = 0
             )
     )

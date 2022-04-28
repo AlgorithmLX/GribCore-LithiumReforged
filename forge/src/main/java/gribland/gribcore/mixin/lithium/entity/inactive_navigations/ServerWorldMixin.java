@@ -1,8 +1,8 @@
 package gribland.gribcore.mixin.lithium.entity.inactive_navigations;
 
+import it.unimi.dsi.fastutil.objects.ReferenceOpenHashSet;
 import gribland.gribcore.lithium.common.entity.EntityNavigationExtended;
 import gribland.gribcore.lithium.common.world.ServerWorldExtended;
-import it.unimi.dsi.fastutil.objects.ReferenceOpenHashSet;
 import net.minecraft.core.BlockPos;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
@@ -85,7 +85,7 @@ public abstract class ServerWorldMixin extends Level implements ServerWorldExten
             method = "onEntityRemoved",
             at = @At(
                     value = "INVOKE",
-                    target = "Ljava/util/Set;remove(Ljava/lang/Object;)Z"
+                    target = "Lnet/minecraft/server/level/ServerLevel;removeEntityComplete(Lnet/minecraft/world/entity/Entity;Z)V"
             )
     )
     private boolean stopListeningOnEntityUnload(Set<PathNavigation> set, Object navigation) {

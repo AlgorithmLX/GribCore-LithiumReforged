@@ -31,7 +31,7 @@ public abstract class PalettedContainerMixin<T> {
     public abstract void release();
 
     @Shadow
-    protected abstract T get(int index);
+    public abstract T get(int index);
 
     @Shadow
     @Final

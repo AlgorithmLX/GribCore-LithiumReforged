@@ -17,12 +17,12 @@ import org.spongepowered.asm.mixin.Shadow;
 @SuppressWarnings("DuplicatedCode")
 @Mixin(VoxelShape.class)
 public abstract class VoxelShapeMixin {
-    private static final double POSITIVE_EPSILON = +1.0E-7D;
+    private static final double POSITIVE_EPSILON = 1.0E-7D;
     private static final double NEGATIVE_EPSILON = -1.0E-7D;
 
     @Shadow
     @Final
-    protected DiscreteVoxelShape shape;
+    public DiscreteVoxelShape shape;
 
     @Shadow
     public abstract boolean isEmpty();
@@ -31,7 +31,7 @@ public abstract class VoxelShapeMixin {
     protected abstract double get(Direction.Axis axis, int index);
 
     @Shadow
-    protected abstract DoubleList getCoords(Direction.Axis axis);
+    public abstract DoubleList getCoords(Direction.Axis axis);
 
     /**
      * @reason Use optimized implementation which delays searching for coordinates as long as possible

@@ -7,10 +7,7 @@ import net.minecraft.server.level.*;
 import net.minecraft.util.Mth;
 import net.minecraft.world.level.ChunkPos;
 import net.minecraft.world.level.chunk.LevelChunk;
-import org.spongepowered.asm.mixin.Final;
-import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.*;
 
 @Mixin(ChunkMap.class)
 public abstract class ThreadedAnvilChunkStorageMixin {
@@ -36,7 +33,7 @@ public abstract class ThreadedAnvilChunkStorageMixin {
     protected abstract SectionPos updatePlayerPos(ServerPlayer serverPlayerEntity);
 
     @Shadow
-    protected abstract ChunkHolder getVisibleChunkIfPresent(long pos);
+    public abstract ChunkHolder getVisibleChunkIfPresent(long pos);
 
     @Shadow
     protected abstract void playerLoadedChunk(ServerPlayer player, Packet<?>[] packets, LevelChunk chunk);

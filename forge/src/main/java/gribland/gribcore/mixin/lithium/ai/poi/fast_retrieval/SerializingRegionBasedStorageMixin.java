@@ -1,11 +1,11 @@
 package gribland.gribcore.mixin.lithium.ai.poi.fast_retrieval;
 
 import com.mojang.datafixers.DataFixer;
+import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
+import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
 import gribland.gribcore.lithium.common.util.Collector;
 import gribland.gribcore.lithium.common.util.collections.ListeningLong2ObjectOpenHashMap;
 import gribland.gribcore.lithium.common.world.interests.RegionBasedStorageSectionAccess;
-import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
-import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
 import net.minecraft.core.SectionPos;
 import net.minecraft.util.datafix.DataFixTypes;
 import net.minecraft.world.level.ChunkPos;

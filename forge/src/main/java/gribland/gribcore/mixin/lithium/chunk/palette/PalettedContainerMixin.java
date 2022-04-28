@@ -51,7 +51,7 @@ public abstract class PalettedContainerMixin<T> {
     private T defaultValue;
 
     @Shadow
-    protected abstract T get(int int_1);
+    public abstract T get(int int_1);
 
     /**
      * TODO: Replace this with something that doesn't overwrite.

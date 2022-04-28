@@ -1,7 +1,7 @@
 package gribland.gribcore.mixin.lithium.world.chunk_ticking;
 
-import gribland.gribcore.lithium.common.world.PlayerChunkWatchingManagerIterable;
 import it.unimi.dsi.fastutil.objects.Object2BooleanMap;
+import gribland.gribcore.lithium.common.world.PlayerChunkWatchingManagerIterable;
 import net.minecraft.server.level.PlayerMap;
 import net.minecraft.server.level.ServerPlayer;
 import org.spongepowered.asm.mixin.Final;

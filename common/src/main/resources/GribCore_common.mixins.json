@@ -3,11 +3,24 @@
   "package": "gribland.gribcore.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "gribcore.ScreenLoadMixin",
 
+    "starlight.client.world.ClientLevelMixin",
+
+    "starlight.common.blockstate.BlockStateBaseMixin",
+    "starlight.common.chunk.EmptyLevelChunkMixin",
+    "starlight.common.chunk.ImposterProtoChunkMixin",
+    "starlight.common.chunk.LevelChunkMixin",
+    "starlight.common.chunk.ProtoChunkMixin",
+    "starlight.common.lightengine.LevelLightEngineMixin",
+    "starlight.common.lightengine.ThreadedLevelLightEngineMixin",
+    "starlight.common.world.LevelMixin",
+    "starlight.common.world.ChunkSerializerMixin",
+    "starlight.common.world.ServerWorldMixin"
   ],
-  "server": [],
   "injectors": {
     "defaultRequire": 1
   },
-  "minVersion": "0.8"
+  "minVersion": "0.8",
+  "refmap": "GribCore.refmap.json"
 }

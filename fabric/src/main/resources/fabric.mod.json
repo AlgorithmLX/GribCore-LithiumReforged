@@ -20,7 +20,6 @@
   "mixins": [
     "GribCore.mixins.json"
   ],
-  "accessWidener": "accesstransformer.accesswidener",
   "depends": {
     "fabricloader": "*",
     "minecraft": "1.16.5"
