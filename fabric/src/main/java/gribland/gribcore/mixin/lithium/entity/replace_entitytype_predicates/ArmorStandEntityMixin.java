@@ -18,7 +18,7 @@ import java.util.function.Predicate;
 public class ArmorStandEntityMixin {
     @Shadow
     @Final
-    private static Predicate<Entity> RIDEABLE_MINECART_PREDICATE;
+    private static Predicate<Entity> RIDABLE_MINECARTS;
 
     @Redirect(
             method = "pushEntities",
@@ -28,7 +28,7 @@ public class ArmorStandEntityMixin {
             )
     )
     private List<Entity> getMinecartsDirectly(Level world, Entity excluded, AABB box, Predicate<? super Entity> predicate) {
-        if (predicate == RIDEABLE_MINECART_PREDICATE) {
+        if (predicate == RIDABLE_MINECARTS) {
             // Not using MinecartEntity.class and no predicate, because mods may add another minecart that is type ridable without being MinecartEntity
             return world.getEntitiesOfClass(AbstractMinecart.class, box, (Entity e) -> e != excluded && ((AbstractMinecart) e).getMinecartType() == AbstractMinecart.Type.RIDEABLE);
         }

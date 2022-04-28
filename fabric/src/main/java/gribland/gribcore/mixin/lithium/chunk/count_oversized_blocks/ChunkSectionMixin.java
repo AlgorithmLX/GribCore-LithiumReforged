@@ -1,8 +1,7 @@
 package gribland.gribcore.mixin.lithium.chunk.count_oversized_blocks;
 
-import gribland.gribcore.mixin.lithium.collections.entity_filtering.movement.ChunkAwareBlockCollisionSweeper;
+import gribland.gribcore.mixed.ChunkAwareBlockCollisionSweeper;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.chunk.LevelChunkSection;
 import net.minecraft.world.level.chunk.PalettedContainer;

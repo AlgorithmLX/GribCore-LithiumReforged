@@ -1,7 +1,7 @@
 package gribland.gribcore.mixin.lithium.entity.fast_suffocation_check;
 
-import gribland.gribcore.mixin.lithium.collections.entity_filtering.movement.BlockCollisionPredicate;
-import gribland.gribcore.mixin.lithium.collections.entity_filtering.movement.ChunkAwareBlockCollisionSweeper;
+import gribland.gribcore.mixed.BlockCollisionPredicate;
+import gribland.gribcore.mixed.ChunkAwareBlockCollisionSweeper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;

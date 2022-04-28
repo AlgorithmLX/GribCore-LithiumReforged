@@ -1,6 +1,9 @@
+//file:noinspection GrUnresolvedAccess
 plugins {
     id "com.github.johnrengelman.shadow" version "7.0.0"
 }
+
+def transformer = project(":common").file("src/main/resources/accesstransformer.accesswidener")
 
 architectury {
     platformSetupLoomIde()
@@ -8,7 +11,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/accesstransformer.accesswidener")
+    accessWidenerPath = transformer
 }
 
 configurations {
@@ -49,17 +52,12 @@ shadowJar {
 remapJar {
     input.set shadowJar.archiveFile
     dependsOn shadowJar
-    classifier null
+    archiveBaseName.set "${rootProject.archives_base_name}-${project.name}"
+    archiveClassifier.set null
 }
 
 jar {
     classifier "dev"
-}
-
-sourcesJar {
-    def commonSources = project(":common").sourcesJar
-    dependsOn commonSources
-    from commonSources.archiveFile.map { zipTree(it) }
 }
 
 components.java {

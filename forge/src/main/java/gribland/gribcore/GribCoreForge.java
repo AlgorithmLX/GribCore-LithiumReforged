@@ -13,7 +13,7 @@ public class GribCoreForge {
 
         if (ModList.get().isLoaded("optifine")) {
             Constantum.LOGGER.error("OPTIFINE DETECTED! Creating a crash report");
-            Minecraft.crash(new CrashReport(new TranslatableComponent(Constantum.ModId + ".optifineDetected").toString(), new Throwable()));
+            Minecraft.crash(new CrashReport("OPTIFINE DETECTED! DON'T USE OPTIFINE!", new Throwable()));
         }
     }
 }
